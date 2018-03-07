@@ -1,0 +1,13 @@
+en 
+conf t
+line con 0
+line vty 0 
+hostname BCRTR01
+int G0/0
+no shut
+ex
+int G0/1
+no shut
+ex
+
+

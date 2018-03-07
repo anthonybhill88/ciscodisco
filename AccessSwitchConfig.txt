@@ -1,0 +1,10 @@
+en 
+conf t
+line con 0
+line vty 0 
+hostname AS00
+int G0/1
+no shut
+ex
+wr mem
+

@@ -1,0 +1,11 @@
+en 
+conf t
+int port-channel 1
+no switchport
+ip addr 200.0.0.9 255.255.255.252
+ex 
+int range g1/0/3-4
+no switchport
+no ip addr
+channel-group 1 mode auto
+end

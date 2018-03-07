@@ -1,0 +1,20 @@
+en 
+conf t
+line con 0
+line vty 0 
+hostname DS01
+int G1/0/1
+no shut
+ex
+int G1/0/2
+no shut
+ex
+int G1/0/3
+no shut
+ex
+int G1/0/4
+no shut
+ex
+ex
+wr mem
+
